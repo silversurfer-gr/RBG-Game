@@ -26,7 +26,6 @@ func create_hit_effect():
 	var main = get_tree().current_scene
 	main.add_child(effect)
 	effect.global_position = global_position
-	print("Animation played")
 
 
 func _on_Timer_timeout():
